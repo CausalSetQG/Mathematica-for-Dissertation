@@ -1,0 +1,219 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6741,        209]
+NotebookOptionsPosition[      6387,        195]
+NotebookOutlinePosition[      6787,        211]
+CellTagsIndexPosition[      6744,        208]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"2", " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"L", " ", 
+     RowBox[{"(", 
+      RowBox[{"T", "-", 
+       FractionBox["\[Gamma]", "4"]}], ")"}], " ", "\[Rho]"}], "+", 
+    RowBox[{
+     FractionBox["1", "64"], " ", 
+     SqrtBox["\[Rho]"], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"8", " ", "\[Gamma]", " ", 
+        RowBox[{"(", 
+         RowBox[{"L", "+", 
+          RowBox[{"4", " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"-", 
+             FractionBox[
+              RowBox[{
+               SuperscriptBox["\[Gamma]", "2"], " ", "\[Rho]"}], "2"]}]], " ",
+            "\[Gamma]"}]}], ")"}], " ", 
+        SqrtBox["\[Rho]"]}], "+", 
+       RowBox[{"2", " ", "L", " ", 
+        RowBox[{"(", 
+         RowBox[{"T", "-", 
+          RowBox[{"3", " ", "\[Gamma]"}]}], ")"}], " ", 
+        SqrtBox["\[Rho]"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "4"}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"T", "-", "\[Gamma]"}], ")"}], "2"], " ", "\[Rho]"}]}], 
+         ")"}]}], "-", 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+          RowBox[{"-", 
+           FractionBox["1", "8"]}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"T", "-", "\[Gamma]"}], ")"}], "2"], " ", "\[Rho]"}]], 
+        " ", 
+        RowBox[{"(", 
+         RowBox[{"T", "-", "\[Gamma]"}], ")"}], " ", 
+        SqrtBox["\[Rho]"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"8", " ", "\[Gamma]"}], "+", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"T", "-", 
+             RowBox[{"3", " ", "\[Gamma]"}]}], ")"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"T", "-", "\[Gamma]"}], ")"}], "2"], " ", "\[Rho]"}]}], 
+         ")"}]}], "+", 
+       RowBox[{
+        SqrtBox["2"], " ", "L", " ", 
+        RowBox[{"(", 
+         RowBox[{"32", "+", 
+          RowBox[{"4", " ", 
+           RowBox[{"(", 
+            RowBox[{"T", "-", 
+             RowBox[{"7", " ", "\[Gamma]"}]}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"T", "-", "\[Gamma]"}], ")"}], " ", "\[Rho]"}], "-", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"T", "-", 
+             RowBox[{"3", " ", "\[Gamma]"}]}], ")"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"T", "-", "\[Gamma]"}], ")"}], "3"], " ", 
+           SuperscriptBox["\[Rho]", "2"]}]}], ")"}], " ", 
+        RowBox[{"DawsonF", "[", 
+         FractionBox[
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"T", "-", "\[Gamma]"}], ")"}], " ", 
+           SqrtBox["\[Rho]"]}], 
+          RowBox[{"2", " ", 
+           SqrtBox["2"]}]], "]"}]}], "+", 
+       RowBox[{"8", " ", 
+        SqrtBox["2"], " ", "L", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[Gamma]", "2"], " ", "\[Rho]"}]}], ")"}], " ", 
+        RowBox[{"DawsonF", "[", 
+         FractionBox[
+          RowBox[{"\[Gamma]", " ", 
+           SqrtBox["\[Rho]"]}], 
+          SqrtBox["2"]], "]"}]}], "+", 
+       RowBox[{"4", " ", 
+        SqrtBox["2"], " ", "L", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "4"}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"T", "+", "\[Gamma]"}], ")"}], "2"], " ", "\[Rho]"}]}], 
+         ")"}], " ", 
+        RowBox[{"DawsonF", "[", 
+         FractionBox[
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"T", "+", "\[Gamma]"}], ")"}], " ", 
+           SqrtBox["\[Rho]"]}], 
+          RowBox[{"2", " ", 
+           SqrtBox["2"]}]], "]"}]}], "-", 
+       RowBox[{"16", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "T", " ", 
+           RowBox[{"(", 
+            RowBox[{"L", "+", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"-", 
+                FractionBox[
+                 RowBox[{
+                  SuperscriptBox["T", "2"], " ", "\[Rho]"}], "2"]}]], " ", 
+              "T"}]}], ")"}], " ", 
+           SqrtBox["\[Rho]"]}], "+", 
+          RowBox[{
+           SqrtBox["2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"2", " ", "L", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "1"}], "+", 
+                RowBox[{
+                 SuperscriptBox["T", "2"], " ", "\[Rho]"}]}], ")"}], " ", 
+              RowBox[{"DawsonF", "[", 
+               FractionBox[
+                RowBox[{"T", " ", 
+                 SqrtBox["\[Rho]"]}], 
+                SqrtBox["2"]], "]"}]}], "-", 
+             RowBox[{
+              SqrtBox["\[Pi]"], " ", "T", " ", 
+              RowBox[{"Erf", "[", 
+               FractionBox[
+                RowBox[{"T", " ", 
+                 SqrtBox["\[Rho]"]}], 
+                SqrtBox["2"]], "]"}]}]}], ")"}]}]}], ")"}]}], "+", 
+       RowBox[{"32", " ", 
+        SqrtBox[
+         RowBox[{"2", " ", "\[Pi]"}]], " ", "\[Gamma]", " ", 
+        RowBox[{"Erf", "[", 
+         FractionBox[
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"T", "-", "\[Gamma]"}], ")"}], " ", 
+           SqrtBox["\[Rho]"]}], 
+          RowBox[{"2", " ", 
+           SqrtBox["2"]}]], "]"}]}], "-", 
+       RowBox[{"16", " ", 
+        SqrtBox[
+         RowBox[{"2", " ", "\[Pi]"}]], " ", "\[Gamma]", " ", 
+        RowBox[{"Erf", "[", 
+         FractionBox[
+          RowBox[{"\[Gamma]", " ", 
+           SqrtBox["\[Rho]"]}], 
+          SqrtBox["2"]], "]"}]}]}], ")"}]}]}], ")"}]}]], "Input",
+ CellChangeTimes->{
+  3.904205390689562*^9},ExpressionUUID->"f6e85ffe-ea28-4271-84f3-\
+b6b711da5b87"]
+},
+WindowSize->{1141.2, 568.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"86e580e0-4f0e-458e-83a7-80b75af242a3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 5825, 173, 285, "Input",ExpressionUUID->"f6e85ffe-ea28-4271-84f3-b6b711da5b87"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
